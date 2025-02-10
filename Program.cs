@@ -123,3 +123,54 @@ for (int i = 0; i<n ; i++)
 {
     Console.WriteLine(array2[i]);
 }
+//7 - Massivdeki en boyuk iki ededi tapin
+//Console.Write("Enter the number of elements you want to have in your array: ");
+//int n = int.Parse(Console.ReadLine());
+//int[] arr = new int[n];
+//for (int j = 0; j < n; j++)
+//{
+//    Console.Write($"Enter the array element: ");
+//    arr[j] = int.Parse(Console.ReadLine()); // [1, 2, 54, 6, 8, 3] , output: 54, 8
+//}
+//if (n < 2)
+//{
+//    Console.WriteLine("The number of elements should be at least 2");
+//    return;
+//}
+
+//int max1 = int.MinValue; //this gives the possible minimum value
+//int max2 = int.MinValue;
+
+//for (int i = 0; i < arr.Length; i++)
+//{
+//    if (arr[i] > max1)
+//    {
+//        max2 = max1;
+//        max1 = arr[i];
+//    }
+//    else if (arr[i] > max2 && arr[i] != max1)
+//    {
+//        max2 = arr[i];
+//    }
+//}
+
+//Console.WriteLine($"Top 2 largest numbers are {max1} and {max2}");
+
+//8. Massivin bütün elementlərinin 2 qatını tapın və yeni massiv yaradın.
+//Console.Write("Enter the number of elements you want in your array: ");
+//int n = int.Parse(Console.ReadLine()); 
+//int[] array = new int[n];
+//int[] doubleArray = new int[n];
+//int index = 0;
+//for (int i = 0; i < n; i++)
+//{
+//    Console.Write("Enter the value of the element of the array: ");
+//    array[i] = int.Parse(Console.ReadLine());
+//}
+//for (int i = 0; i < n; i++)
+//{
+//        doubleArray[index++] = array[i] * 2;
+
+//}
+//Console.WriteLine("The first array: " + string.Join(", ", array));
+//Console.WriteLine("The second array: " + string.Join(", ", doubleArray));
